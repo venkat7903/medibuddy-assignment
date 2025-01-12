@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 
 const Navbar = () => {
   return (
-    <div className="">
+    <div className="mx-[20px]">
       <div className="flex items-center justify-between md:m-[20px]">
         <div className="flex items-center">
           <FaArrowLeft size={25} className="cursor-pointer" />
