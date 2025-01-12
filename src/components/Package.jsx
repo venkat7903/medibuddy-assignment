@@ -7,15 +7,11 @@ import group2 from "../assets/group2.png";
 const Package = (props) => {
   const { packagi } = props;
   const {
-    packageDisplayName,
     packageName,
-    packageId,
     price,
-    isHomeSampleAvailable,
     isRadiologyIncluded,
     fastingHoursText,
     reportsTatText,
-    subCategories,
     testCount,
     testsSummary,
   } = packagi;

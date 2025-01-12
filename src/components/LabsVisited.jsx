@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import shop1 from "../assets/bang.png";
 import shop2 from "../assets/odisha.png";
 import { BiLocationPlus } from "react-icons/bi";
-import { CgLock } from "react-icons/cg";
 import { BsClock } from "react-icons/bs";
 
 const LabsVisited = () => {

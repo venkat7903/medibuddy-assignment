@@ -1,5 +1,4 @@
 import React from "react";
-import image from "../assets/Group 189935.png";
 import shield from "../assets/Group 104556.png";
 import sym1 from "../assets/Group 105500.png";
 import sym2 from "../assets/Group 105501.png";
