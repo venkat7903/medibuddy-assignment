@@ -1,8 +1,11 @@
+// Sub-component of categories
+
 import React from "react";
 
 const Tab = (props) => {
-  const { isActive, tabName, setActiveTab } = props;
-  const classN = isActive ? "text-blue-600  border-2 border-blue-600" : "";
+  // represents individual tab
+  const { isActive, tabName, setActiveTab } = props; // Specify the active tab
+  const classN = isActive ? "text-blue-600  border-2 border-blue-600" : ""; // className for active tab
   return (
     <button
       onClick={() => setActiveTab(tabName)}

@@ -1,3 +1,5 @@
+// Reviews collection in what our say component
+
 import React from "react";
 import { CiLocationOn } from "react-icons/ci";
 import { MdOutlineStarPurple500 } from "react-icons/md";

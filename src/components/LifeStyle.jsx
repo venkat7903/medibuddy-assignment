@@ -1,3 +1,5 @@
+// Rendered problems faced by people
+
 import React from "react";
 import img1 from "../assets/lifestyle/Frame 189963.png";
 import img2 from "../assets/lifestyle/Frame 190046.png";

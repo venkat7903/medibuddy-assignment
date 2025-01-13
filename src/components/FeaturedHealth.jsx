@@ -1,10 +1,12 @@
+// Featured Health Check-ups containes categories and slider
+
 import React from "react";
 import { useState } from "react";
 import Categories from "./Categories";
 import Packages from "./Packages";
 
 const FeaturedHealth = (props) => {
-  const { features } = props;
+  const { features } = props; // // Extracted fetaures from props
   const { categories } = features;
   const tabs = categories["10386"];
   const [activeTab, setActiveTab] = useState(tabs[0]);
@@ -12,6 +14,7 @@ const FeaturedHealth = (props) => {
   let { packages } = features.props[0];
   //console.log(packages);
   packages = packages.filter(
+    // Filtering packages based on contractId & subCategories
     (each) =>
       each.contractId === 10386 &&
       each.subCategories.includes(activeTab.toUpperCase())

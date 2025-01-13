@@ -1,3 +1,6 @@
+// Service component - sub-component of Services
+// Renders logo and corresponding service name
+
 import React from "react";
 
 const Service = (props) => {
@@ -7,9 +10,10 @@ const Service = (props) => {
       <img
         src={serviceDetails[1]}
         className="w-[70px], h-[70px]"
-        alt={serviceDetails[0]}
+        alt={serviceDetails[0]} // Service Logo
       />
-      <p className="font-semibold text-[14px]">{serviceDetails[0]}</p>
+      {/* service name */}
+      <p className="font-semibold text-[14px]">{serviceDetails[0]}</p>{" "}
     </li>
   );
 };

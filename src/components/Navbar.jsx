@@ -1,3 +1,6 @@
+// Top of the labs_home_page
+// contains location, cart, search bar...
+
 import { FaArrowLeft } from "react-icons/fa";
 import { IoLocation, IoWalletOutline, IoCartOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
@@ -19,21 +22,22 @@ const Navbar = () => {
           <input
             placeholder="Find lab tests, diagnostics centres"
             className="w-[75%]"
-          />
+          />{" "}
+          {/* search bar for large and above devices */}
           <CiSearch size={30} className="justify-self-end" />
         </div>
         <div className="flex items-center">
           {/*<img src={walletcart} alt="walletcart" />*/}
           <div className="flex cursor-pointer mr-[15px]">
-            <IoWalletOutline size={45} />
+            <IoWalletOutline size={45} /> {/* wallet icon */}
             <span className="bg-blue-500 rounded-lg p-[5px] self-start text-[10px] text-white inline ml-[-20px]">
               4529
             </span>
           </div>
           <div className="flex cursor-pointer">
-            <IoCartOutline size={45} />
+            <IoCartOutline size={45} /> {/* cart icon */}
             <span className="bg-blue-500 rounded-lg p-[5px] self-start text-[10px] text-white inline ml-[-20px]">
-              4529
+              32
             </span>
           </div>
         </div>
@@ -42,7 +46,8 @@ const Navbar = () => {
         <input
           placeholder="Find lab tests, diagnostics centres"
           className="w-[75%]"
-        />
+        />{" "}
+        {/* search bar for small, medium devices */}
         <CiSearch size={30} className="justify-self-end" />
       </div>
     </div>

@@ -5,6 +5,7 @@ import group3 from "../assets/Group 104846.png";
 import { FaHome, FaRupeeSign } from "react-icons/fa";
 
 const tabs = [
+  // data used to render tabs in Book Popular Lab Tests
   { id: "labtest0", name: "For Amazon Employees" },
   { id: "labtest1", name: "Popular" },
   { id: "labtest2", name: "Covid 19" },

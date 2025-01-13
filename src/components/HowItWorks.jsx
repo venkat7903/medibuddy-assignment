@@ -1,3 +1,5 @@
+// How it works section
+
 import React from "react";
 import img1 from "../assets/msg.png";
 import img2 from "../assets/scooty.png";

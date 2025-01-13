@@ -3,6 +3,7 @@ import { FaIndianRupeeSign } from "react-icons/fa6";
 import { FaHome } from "react-icons/fa";
 import group1 from "../assets/group1.png";
 import group2 from "../assets/group2.png";
+import { v4 as uuidv4 } from "uuid";
 
 const Package = (props) => {
   const { packagi } = props;
@@ -31,7 +32,9 @@ const Package = (props) => {
           </h1>
           <ul className="list-disc ml-[15px]">
             {testsSummary.map((each) => (
-              <li className="text-gray-500">{each}</li>
+              <li key={uuidv4()} className="text-gray-500">
+                {each}
+              </li>
             ))}
           </ul>
           {isRadiologyIncluded && (

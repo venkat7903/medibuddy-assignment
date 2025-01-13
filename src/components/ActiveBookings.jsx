@@ -1,3 +1,5 @@
+// Active Bookings component shows the confirmed and upcoming apppointments
+
 import React from "react";
 import avatar from "../assets/Avatar 2.png";
 import tick from "../assets/Success.png";

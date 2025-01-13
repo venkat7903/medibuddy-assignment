@@ -1,3 +1,6 @@
+// Services component
+// Collections of services offered
+
 import React from "react";
 import Service from "./Service";
 import { v4 as uuidv4 } from "uuid";
