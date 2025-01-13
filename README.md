@@ -1,70 +1,65 @@
 # Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/venkat7903/medibuddy-assignment.git).
+
+# Steps to setup project
+Clone this repo in your **IDE** using commad **git clone** https://github.com/venkat7903/medibuddy-assignment.git
+
+First run **npm install** to install necessary dependencies in package.json file.
+
+Run **npm start** to start the server. 
+
+The server will start running at localhost:3000
+
+# Assignment Video
+
+https://github.com/user-attachments/assets/6100749e-cd2f-4813-bd6a-a712bf55bc06
+
+# Project Live Link
+https://medibuddy-assignment-brown.vercel.app/
+
+# Drive Link
 https://drive.google.com/drive/folders/1_b2xuwkIY9pl8qMYL3ZNTk1CZAgLxzEb?usp=sharing
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Technologies Used
 
-In the project directory, you can run:
+React 
 
-### `npm start`
+Functional components and React Hooks for state management
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tailwind CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React Slider
 
-### `npm test`
+# React Packages Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**react-icons** for icons
 
-### `npm run build`
+**react-loader-spinner** for Loader
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**react-slick** for slider
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**uuid** for unique ids
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Description 
 
-### `npm run eject`
+**Frontend Development:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+User Experience: Designed a good UI with loading indicators.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**API**:
+  Used page_config API (https://677f757b0476123f76a68a42.mockapi.io/api/labs/v1/page_config) for fetching objects and rendered the components based on the order of the array.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Async Operations**:
+  Implemented async operations using async/await in useEffect for fetching objects using page_config API.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Rendered 2 Special Components**:
+  Filtered logic of the packages where:
+  1) contractId matches the subCategory key.
+  2) subCategories array contains (includes) the category which is present inside the categories key.
 
-## Learn More
+**Loading Indicators**:
+Displayed loading spinners when data is being fetched.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Deployment**:
+Hosted the website on **Vercel** platform.
