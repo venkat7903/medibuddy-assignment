@@ -45,7 +45,10 @@ React Slider
 
 **Frontend Development:**
 
-User Experience: Designed a good UI with loading indicators.
+User Experience: Designed a responsive good UI with loading indicators.
+
+**Responsiveness**:
+Developed the page to adapt different screen sizes like mobiles, tabs, desktops. 
 
 **API**:
   Used page_config API (https://677f757b0476123f76a68a42.mockapi.io/api/labs/v1/page_config) for fetching objects and rendered the components based on the order of the array.
@@ -60,6 +63,12 @@ User Experience: Designed a good UI with loading indicators.
 
 **Loading Indicators**:
 Displayed loading spinners when data is being fetched.
+
+**Loading**:
+The page loads efficiently
+
+**Design**:
+Developed the web page based on the figma design provided
 
 **Deployment**:
 Hosted the website on **Vercel** platform.
